@@ -5,7 +5,7 @@ canvas {
     margin-right: auto;
     display: block;
     width: 800px;
-    border:black 10px solid;
+    /* border:black 10px solid; */
 }
 
 body {
@@ -14,11 +14,10 @@ body {
     transition: background-color 1000ms linear;
     align-items: center;
     vertical-align: center;
-    margin: auto; /* Important */ 
+    margin: auto;
     text-align: center; 
 }
 
-h1 {
+h1, h2, h3 {
     font-family: sans-serif;
-    
 }
